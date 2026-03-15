@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+Mobile/node_modules/
+Server/node_modules/
+
+# Environment
+.env
+Mobile/.env
+Server/.env
+
+# Expo
+.expo/
+Mobile/.expo/
+
+# Build outputs
+dist/
+Mobile/dist/
+Server/dist/
+
+# Android/iOS builds
+Mobile/android/
+Mobile/ios/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
