@@ -1,9 +1,6 @@
-import { Text, View } from "react-native";
+import { Redirect } from "expo-router";
 
 export default function Index() {
-  return (
-    <View className="flex-1 justify-center items-center bg-dark-100">
-      <Text className="text-5xl text-light-100 font-bold">Welcome!</Text>
-    </View>
-  );
+  // @ts-ignore - Expo router typed routes generation can be delayed
+  return <Redirect href={"/login" as any} />;
 }

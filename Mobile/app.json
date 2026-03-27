@@ -2,12 +2,13 @@
   "expo": {
     "name": "Mobile",
     "slug": "Mobile",
+    "sdkVersion": "54.0.0",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "mobile",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "ios": {
       "supportsTablet": true
     },
@@ -40,7 +41,13 @@
           }
         }
       ],
-      "expo-secure-store"
+      "expo-secure-store",
+      [
+        "expo-av",
+        {
+          "microphonePermission": "Allow CodePilot to access your microphone for voice instructions."
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true,

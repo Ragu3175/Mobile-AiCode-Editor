@@ -7,6 +7,7 @@ Server/node_modules/
 .env
 Mobile/.env
 Server/.env
+Mobile/ip.txt
 
 # Expo
 .expo/
